@@ -69,3 +69,6 @@ The project is developed using the *MERN stack* (MongoDB, Express.js, React.js, 
 - *Aditi* (2022MEB1288)
 - *Priyanshi* (2022MCB1276)
 - *Sneha* (2022CSB1129)
+
+Hostel- Raavi
+
