@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // define the mongoDB connection url
-const mongoURL = 'mongodb://127.0.0.1:27017/GC'
+const mongoURL = 'mongodb+srv://gcmanage:gcmanage123@cluster0.vv3al.mongodb.net/'
 
 // set up mongoDB connection
 mongoose.connect(mongoURL)
