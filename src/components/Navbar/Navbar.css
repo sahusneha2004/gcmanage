@@ -1,0 +1,78 @@
+/* Navbar container */
+.navbar {
+  position: fixed; /* Fixes the navbar at the top of the page */
+  top: 0; /* Aligns the navbar to the top */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 20px; /* Adds padding for better spacing */
+  color: white;
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+/* Prevent content from being hidden under the navbar */
+body {
+  padding-top: 70px; /* Adjust padding for content to not overlap navbar */
+}
+
+/* Left section of the navbar */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo styling */
+.navbar-logo h2 {
+  margin: 0;
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold; /* Makes the logo more prominent */
+}
+
+/* Right section of the navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar links */
+.navbar-link {
+  color: white;
+  margin-left: 30px; /* More space between links */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500; /* Slightly bold for better readability */
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #f5a623; /* Hover color */
+}
+
+/* Navbar button (Logout) */
+.navbar-button {
+  background-color: #e94e77;
+  color: white;
+  border: none;
+  padding: 12px 18px; /* Larger padding for a more clickable button */
+  font-size: 16px;
+  margin-left: 30px; /* Adds space between button and links */
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #d13a61; /* Hover color */
+  transform: scale(1.05); /* Button scales up slightly on hover for a dynamic effect */
+}
+
+/* Make the button active */
+.navbar-button:active {
+  transform: scale(1); /* Resets the scale when clicked */
+}
